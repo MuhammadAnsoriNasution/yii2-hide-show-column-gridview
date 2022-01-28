@@ -2,8 +2,8 @@
     "name": "ansori/yii2-hideshowcolumngridview",
     "description": "Yii2 hide show column gridview",
     "type": "library",
-    "keywords": ["yii2","extension"],
-    "license": "MIT",
+    "keywords": ["yii2","extension","ajax","crud","gii","template","database"],
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "ansori",
