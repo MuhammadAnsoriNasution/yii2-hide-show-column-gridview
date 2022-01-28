@@ -1,5 +1,5 @@
 {
-    "name": "ansori/yii2-hide-show-column-gridview",
+    "name": "ansori/yii2-hideshowcolumngridview",
     "description": "Yii2 hide show column gridview",
     "type": "library",
     "keywords": ["yii2","extension"],
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ansori\\hide-show-column-gridview\\": "generator/"
+            "ansori\\hideshowcolumngridview\\": "generator/"
         }
     }
 }
