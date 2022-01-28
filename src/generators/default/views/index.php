@@ -12,6 +12,9 @@ use yii\helpers\Html;
 
 $urlParams = $generator->generateUrlParams();
 $nameAttribute = $generator->getNameAttribute();
+$model = new $generator->modelClass();
+$attributeLabels = $model->attributeLabels()
+
 echo "<?php\n";
 ?>
 use yii\helpers\Url;
@@ -34,6 +37,25 @@ $this->registerJsFile(
     ['depends' => [\yii\web\JqueryAsset::class]]
 );
 ?>
+<div class="col-xs-12">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+            Kolom
+        </button>
+        <div class="dropdown-menu dropdown-menu-right max-height-200">
+            <?php
+            foreach ($attributeLabels as $key =>  $name) {   
+            ?>
+                <button class="dropdown-item toggle-vis" data-column=".<?=$key?>">
+                    <input type="checkbox"> <?=$name?>
+                </button>
+            <?php
+            }
+            ?>
+        </div>
+    </div>
+</div>
+
 <div class="<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-index">
     <div id="hideshowcolumngridviewDatatable">
         <?="<?="?>GridView::widget([
