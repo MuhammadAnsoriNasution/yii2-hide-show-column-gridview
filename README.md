@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist ansori/yii2-hide-show-column-gridview "*"
+php composer.phar require --prefer-dist ansori/yii2-hideshowcolumngridview "*"
 ```
 
 or add
 
 ```
-"ansori/yii2-hide-show-column-gridview": "*"
+"ansori/yii2-hideshowcolumngridview": "*"
 ```
 
 to the require section of your `composer.json` file.
