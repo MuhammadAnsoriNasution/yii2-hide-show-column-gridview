@@ -28,4 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \ansori\generator\AutoloadExample::widget(); ?>```
+implement of ajaxcrud johnitvn/ajaxcrud
+https://github.com/johnitvn/yii2-ajaxcrud
