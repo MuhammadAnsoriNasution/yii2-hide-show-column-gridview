@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ansori\\generator\\": ""
+            "ansori\\hide-show-column-gridview\\": "generator/"
         }
     }
 }
