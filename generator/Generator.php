@@ -35,7 +35,7 @@ class Generator extends \yii\gii\Generator
      */
     public function getName()
     {
-        return 'Crud Bersama';
+        return 'Crud Bersama Ansori';
     }
 
     /**
