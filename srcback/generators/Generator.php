@@ -1,5 +1,5 @@
 <?php
-namespace ansori\hideshowcolumngridview\generators;
+namespace ansori\hideshowcolumnssssgridview\generators;
 
 use Yii;
 use yii\db\ActiveRecord;
@@ -35,7 +35,7 @@ class Generator extends \yii\gii\Generator
      */
     public function getName()
     {
-        return 'Ajax CRUD Generator';
+        return 'Crud Bersama Ansori';
     }
 
     /**

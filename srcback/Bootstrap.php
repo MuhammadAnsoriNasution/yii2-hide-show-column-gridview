@@ -1,6 +1,6 @@
 <?php
 
-namespace ansori\hideshowcolumngridview;
+namespace ansori\hideshowcolumnssssgridview;
 
 use Yii;
 use yii\base\Application;
@@ -18,11 +18,11 @@ class Bootstrap implements BootstrapInterface {
      * @param Application $app the application currently running
      */
     public function bootstrap($app) {
-        Yii::setAlias("@hideshowcolumngridview", __DIR__);
-        Yii::setAlias("@ansori/hideshowcolumngridview", __DIR__);
+        Yii::setAlias("@hideshowcolumnssssgridview", __DIR__);
+        Yii::setAlias("@ansori/hideshowcolumnssssgridview", __DIR__);
         if ($app->hasModule('gii')) {
-            if (!isset($app->getModule('gii')->generators['hideshowcolumngridview'])) {
-                $app->getModule('gii')->generators['hideshowcolumngridview'] = 'ansori\hideshowcolumngridview\generators\Generator';
+            if (!isset($app->getModule('gii')->generators['hideshowcolumnssssgridview'])) {
+                $app->getModule('gii')->generators['hideshowcolumnssssgridview'] = 'ansori\hideshowcolumnssssgridview\generators\Generator';
             }
         }
     }
