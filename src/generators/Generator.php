@@ -1,5 +1,5 @@
 <?php
-namespace ansori\hideshowcolumngridview\generator;
+namespace ansori\hideshowcolumngridview\generators;
 
 use Yii;
 use yii\db\ActiveRecord;
