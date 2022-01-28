@@ -20,5 +20,8 @@
         "psr-4": {
             "ansori\\hideshowcolumngridview\\": "src/"
         }
+    },
+    "extra": {
+        "bootstrap": "ansori\\hideshowcolumngridview\\Bootstrap"
     }
 }
